@@ -1,0 +1,62 @@
+{
+  "name": "progettouniversitario",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@google/generative-ai": "^0.8.0",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "anthropic": "^0.0.0",
+    "apexcharts": "^3.49.2",
+    "axios": "^1.6.8",
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
+    "chart.js": "^4.4.3",
+    "chartjs-chart-box-and-violin-plot": "^4.0.0",
+    "chartjs-plugin-zoom": "^2.0.1",
+    "cohere": "^1.1.1",
+    "cohere-ai": "^7.11.2",
+    "express": "^4.21.1",
+    "groq-sdk": "^0.7.0",
+    "llamaai": "^1.0.4",
+    "mongoose": "^8.3.2",
+    "multer": "^1.4.5-lts.1",
+    "openai": "^4.54.0",
+    "react-apexcharts": "^1.4.1",
+    "react-bootstrap": "^2.10.5",
+    "react-chartjs-2": "^5.2.0",
+    "react-transition-group": "^4.4.5",
+    "sweetalert2": "^11.14.1",
+    "sweetalert2-react-content": "^5.0.7",
+    "uuid": "^10.0.0",
+    "web-vitals": "^3.5.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "react-scripts": "^5.0.1"
+  }
+}

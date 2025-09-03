@@ -1,0 +1,119 @@
+.toggle-button {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sun {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  color: #666;
+  filter: drop-shadow(0 0 2px rgba(0, 0, 0, .5));
+  transform: scale(0);
+  transition: 1s ease;
+}
+
+.moon {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  color: #666;
+  filter: drop-shadow(0 0 2px rgba(0, 0, 0, .5));
+  transition: 1s ease;
+}
+
+.toggle {
+  position: absolute;
+  display: block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  box-shadow:
+      inset 0 8px 60px rgba(0, 0, 0, .1),
+      inset 0 8px 8px rgba(0, 0, 0, .1),
+      inset 0 -4px 4px rgba(0, 0, 0, .1);
+  z-index: -1;
+  transition: 1s;
+  background: #f8f8f8;
+}
+
+
+.dark-mode .sun {
+  transform: scale(1) rotate(360deg); 
+}
+
+.dark-mode .moon {
+  transform: rotate(360deg) scale(0);
+}
+
+.dark-mode .toggle {
+  background: #363537;
+}
+
+.dark-mode .animateBg {
+  clip-path: circle(150% at 50% 50%);
+}
+
+.dark-mode .title,
+.dark-mode .section {
+  color: white; 
+}
+
+
+.dark-mode body {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+
+.dark-mode .card {
+  background-color: #1e1e1e;
+  border-color: #333;
+  color: #e0e0e0;
+}
+
+.dark-mode .card-header {
+  background-color: #2c2c2c;
+  border-bottom-color: #333;
+  color: #e0e0e0;
+}
+
+.dark-mode .btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: #fff;
+}
+
+.dark-mode .btn-secondary {
+  background-color: #2e2e2e;
+  border-color: #444;
+  color: #fff;
+}
+
+.dark-mode .toggle {
+  background: #333;
+}
+
+.dark-mode .toggle-button:hover {
+  background-color: #555;
+}
+
+
+.dark-mode input[type="text"] {
+  background-color: #2e2e2e;
+  border-color: #444;
+  color: #fff;
+}
+
+.dark-mode .search-section {
+  background-color: black;
+  border-color: #333;
+}
